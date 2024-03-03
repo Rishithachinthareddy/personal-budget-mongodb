@@ -1,0 +1,146 @@
+/* Body */
+body {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #4d5791;
+    color: #fff;
+    padding: 1px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* Navigation Menu */
+div.menu ul {
+    text-align: center;
+    padding: 0;
+}
+
+div.menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+div.menu ul li:last-child {
+    margin-right: 0;
+}
+
+div.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div.menu ul li a:hover {
+    color: #4d5791;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+/* Hero Section */
+div.hero {
+    background-color: #b4c6f0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+div.hero img {
+    max-width: 15%;
+    height: auto;
+}
+
+/* Main Content */
+.container {
+    padding: 20px;
+}
+
+.text-box {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-box h1 {
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+/* Footer */
+footer {
+    background-color: #4d5791;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Skip Link */
+.skip-link {
+    position: absolute;
+    top: 10px;
+    background-color: #4d5791;
+    color: #fff;
+    padding: 5px 5px;
+    text-decoration: none;
+    margin-left: 85%;
+}
+/*
+.skip-link:focus {
+    top: 0;
+}
+*/
+/* Responsive Layout */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px 0;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header h2 {
+        font-size: 1.2rem;
+    }
+
+    div.menu ul {
+        display: block;
+        text-align: left;
+    }
+
+    div.menu ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    div.menu ul li:last-child {
+        margin-right: 0;
+    }
+}
+
+.d3js-chart {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 400px;
+  }

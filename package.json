@@ -1,0 +1,26 @@
+{
+  "name": "personal-budget1",
+  "version": "1.0.0",
+  "description": "The path to NGInx main folder:\r /usr/share/nginx/html",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VRKotthapalli/personal-budget-mongoDB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VRKotthapalli/personal-budget-mongoDB/issues"
+  },
+  "homepage": "https://github.com/VRKotthapalli/personal-budget-mongoDB#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "mongodb": "^4.17.1",
+    "mongoose": "^7.6.2"
+  }
+}
